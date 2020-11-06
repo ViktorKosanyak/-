@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карпатська джерельна</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+    <header>
+         <section class="navbar">
+            <img src="img/logo.png" alt="logo"> 
+           <div class="navbar-menu">
+            <nav class="media-grid">
+                 <a href="">Головна</a>
+                 <span>|</span>
+                 <a href="#catalog">Каталог</a>
+                 <span>|</span>
+                 <a href="#contact">Контакти</a>
+             </nav>
+             <div class="navbar-btn">
+                 <form action="">
+                     <input type="text" class="input" placeholder="Пошук">
+                     <button type="button" class="search-btn"><img src="img/search.png" alt=""></button>
+                 </form>
+                 <img src="img/basket.png" alt="basket" class="basket">
+              </div>
+           </div> 
+         </section>
+         <section class="first-main">
+             <div class="first-one wow animated fadeInLeftBig" data-wow-duration="1.7s" data-wow-delay="0.6s">
+                <img src="img/02.png" alt="logo2" class="logo">
+                <h2>Молодильна вода <br> Карпат</h2>
+                <button class="button-order" type="button">Замовити</button>
+             </div>
+             <div class="first-two wow animated fadeIn" data-wow-duration="1.3s" data-wow-delay="0.7s">
+                <img src="img/main.png" alt="2" class="tovar1">
+             </div>
+         </section>
+         <div class="fab">
+            <span class="fab-action-button">
+                  <i class="fab-action-button__icon"></i>
+              </span>
+            <ul class="fab-buttons">
+              <li class="fab-buttons__item">
+                <a href="#" class="fab-buttons__link" data-tooltip="Facebook">
+                  <i class="icon-material icon-material_fb"></i>
+                </a>
+              </li>
+              <li class="fab-buttons__item">
+                <a href="#" class="fab-buttons__link" data-tooltip="Twitter">
+                  <i class="icon-material icon-material_tw"></i>
+                </a>
+              </li>
+              <li class="fab-buttons__item">
+                <a href="#" class="fab-buttons__link" data-tooltip="Linkedin">
+                  <i class="icon-material icon-material_li"></i>
+                </a>
+              </li>
+              <li class="fab-buttons__item">
+                <a href="#" class="fab-buttons__link" data-tooltip="Google+">
+                  <i class="icon-material icon-material_gp"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+    </header>
+    <main>
+       <section class="submit">
+            <div class="p-text wow animated fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.7s">
+               <h3>Замовляйте прямо зараз</h3>
+               <p>Ми піклуємося про зручність покупки наших споживачів. В даному розділі ви можете замовити продукцію нашої компанії з доставкою додому. Для цього необхідно вибрати місто, який вас цікавить, і зробити замовлення в зручному для вас інтернет-магазині.</p>
+               <span>Приємних покупок!</span>
+            </div>
+            <div class="form wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
+                <form class="contact-form wow animate backInUp" id="contact-form_1" method="POST" enctype="multipart/form-data">
+                    <div class="contact-form__input-wrapper">
+                      <input name="name" type="text" class="contact-form__input contact-form__input_name" placeholder="Ваше імя">
+                      <div class="contact-form__error contact-form__error_name"></div>
+                    </div>
+                               
+                    <div class="contact-form__input-wrapper">
+                      <input name="tel" type="tel" class="contact-form__input contact-form__input_tel" placeholder="Ваш телефон">
+                      <div class="contact-form__error contact-form__error_tel"></div>
+                    </div>
+                   
+                    <div class="contact-form__input-wrapper"> 
+                       <input name="email" type="text" class="contact-form__input contact-form__input_email" placeholder="Ваш e-mail">
+                       <div class="contact-form__error contact-form__error_email"></div>
+                    </div>
+                    <div class="contact-form__input-wrapper">
+                        <textarea name="text" class="contact-form__input contact-form__text" placeholder="Введите ваше сообщение"></textarea>
+                        <div class="contact-form__error contact-form__error_text"></div>
+                       </div>
+                    <button class="contact-form__button" type="submit" disabled>Відправити</button>
+                  </form>
+            </div>
+       </section>
+       <section class="trigger">
+             <div class="trigger-item trigger-one">
+                 <img src="img/90m.png" alt="">
+                 <p>Добувається з свердловин глибиною 90 метрів</p>
+             </div>
+             <div class="trigger-item trigger-two">
+                <img src="img/everyday.png" alt="">
+                <p>Мінеральна столова вода для щоденного вживання</p>
+            </div>
+            <div class="trigger-item trigger-three">
+                <img src="img/ca.png" alt="">
+                <p>Містить  значну кількість природнього Кальцію</p>
+            </div>
+            <div class="trigger-item trigger-four">
+                <img src="img/filter.png" alt="">
+                <p>Проходить фільтрацію тільки від механічних домішок
+                </p>
+            </div>
+       </section>
+       <section class="popular-tovar">
+            <h2 id="catalog">ПОПУЛЯРНИЙ ТОВАР</h2>
+            <div class="tovar">
+                <div class="card wow animated flipInY card-one" data-wow-duration="1.5s" data-wow-delay="1s">
+                    <div class="icon-card"> 
+                       <img src="img/heart (1).png" alt="">
+                    </div>
+                    <img src="img/tovar.png" alt="card-tovar" class="fivelitr">
+                    <p class="name-tovar">"Карпатська Джерельна" <br>
+                    сильногазована 5 л</p>
+                    <p class="price">23 грн</p>
+                    <button type="button" class="btn-blue-tr">Додати до корзини</button>
+                </div>
+                <div class="card wow animated flipInY card-two" data-wow-duration="1.5s" data-wow-delay="1s">
+                    <div class="icon-card"> 
+                        <img src="img/heart (1).png" alt="">
+                     </div>
+                    <img src="img/sport.png" alt="card-tovar" class="sportlitr">
+                    <p class="name-tovar">"Карпатська Джерельна" <br> негазована 0.5 л</p>
+                    <p class="price">11 грн</p>
+                    <button type="button" class="btn-blue-tr">Додати до корзини</button>
+                </div>
+                <div class="card wow animated flipInY card-three" data-wow-duration="1.5s" data-wow-delay="1s">
+                    <div class="icon-card"> 
+                        <img src="img/heart (1).png" alt="">
+                     </div>
+                    <img src="img/lemon.png" alt="card-tovar" class="lemonlitr">
+                    <p class="name-tovar">"Карпатська Джерельна" <br> зі смаком лимону 1,5 л  </p>
+                    <p class="price">14 грн</p>
+                    <button type="button" class="btn-blue-tr">Додати до корзини</button>
+                </div>
+                <div class="card wow animated flipInY card-four" data-wow-duration="1.5s" data-wow-delay="1s">
+                    <div class="icon-card"> 
+                        <img src="img/heart (1).png" alt="">
+                     </div>
+                    <img src="img/Drakon_synyj.png" alt="card-tovar" class="dragon">
+                    <p class="name-tovar">"Карпатська Джерельна" <br> енергетик 1 л</p>
+                    <p class="price">13 грн</p>
+                    <button type="button" class="btn-blue-tr">Додати до корзини</button>
+                </div> 
+                           
+            </div>
+       </section>
+       <section class="news">
+           <h2>НОВИНИ</h2>
+           <div class="news-grid wow animated fadeInUp">
+             <div class="block-news news-one">
+                 <img src="img/karpatska-djerelna-2.jpg" alt="news" class="news-image">
+                 <h5>ЗУСТРІЧАЙ ОМОЛОДЖЕНУ! «КАРПАТСЬКА ДЖЕРЕЛЬНА» В ОНОВЛЕНІЙ ФОРМІ</h5>
+                 <a href="" class="link-news"></a>
+             </div>
+             <div class="block-news news-two">
+                <img src="img/Ge0f8GRk_l.jpg" alt="" class="news-image">
+                <h5>«КАРПАТСЬКА ДЖЕРЕЛЬНА» ОТРИМАЛА ГРАН-ПРІ EFFIE AWARDS UKRAINE 2016!</h5>
+                <a href="" class="link-news"></a>
+            </div>
+            <div class="block-news news-three">
+                <img src="img/news.jpg" alt="" class="news-image">
+                <h5>У М.Львові встановленно дитячі майданчики для розумних розваг </h5>
+                <a href="" class="link-news"></a>
+            </div>
+            </div>
+       </section>
+       <section class="company">
+            <img src="img/about-img01.jpg" alt="about" class="wow animated slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.4s">
+            <h4 class="wow animated slideInRight" data-wow-duration="1.5s" data-wow-delay="0.4s">КОМПАНІЯ</h4>
+            <p class="wow animated slideInRight" data-wow-duration="1.5s" data-wow-delay="0.4s">«Карпатські мінеральні води» є національним виробником мінеральних вод і безалкогольних напоїв вже більше ніж 15 років. <br>
+ <br>
+                Компанія розпочала свою діяльність на ринку мінеральних вод у 1996 році з першим розливом мінеральної природної столової води ТМ «Карпатська Джерельна», і в червні 2002 року була реорганізована в завод по виробництву мінеральної води і безалкогольних напоїв «Карпатські мінеральні води». В 2002 році компанія розпочала виробництво солодких газованих напої в ТМ «Фруктова Джерельна» і ТМ «Соковинка», а в 2016 – енергетичного напою ТМ «Dragon». <br> <br>
+                
+                Сьогодні група компаній «Карпатські мінеральні води» є потужним гравцем українського ринку природних мінеральних вод і безалкогольних напоїв. Компанія зайняла і надійно утримує одну з провідних позицій завдяки сучасній і високотехнологічної стратегії ведення бізнесу.</p>
+             <img src="img/about-img02.jpg" alt="about2" class="wow animated slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.4s">
+             <h4 class="wow animated slideInRight" data-wow-duration="1.5s" data-wow-delay="0.4s">ТЕХНОЛОГІЯ</h4>
+            <p class="wow animated slideInRight" data-wow-duration="1.5s" data-wow-delay="0.4s">Мінеральна вода «Карпатська Джерельна» видобувається з двох артезіанських свердловин на глибині 90 метрів з природного джерела без будь-якого контакту з людиною. Виробництво знаходиться безпосередньо біля джерела, і вода зі свердловин надходить на лінії розливу по трубопроводу. У процесі розливу вода проходить фільтрацію тільки від механічних домішок і зберігає всі корисні природні мікроелементи. Хімічний склад підземних вод відноситься до гідрокарбонатно-кальцієвого з рівнем мінералізації 0,3-0,8 г / літр. <br> <br>
+
+                На підприємстві встановлені сучасні лінії, що дозволяють розливати воду в пляшки, не змінюючи її унікального складу - вся продукція виробляється на повністю автоматизованому європейському обладнанні: KHS AG (Німеччина), SIDEL (Франція), BC di Vittorio Macri (Італія), AVE (Італія) . <br> <br>
+                
+                Одним з основоположних принципів компанії «Карпатські мінеральні води» є всебічний контроль якості продукції на всіх етапах виробництва. Можливість створювати продукцію світового рівня підтверджує впроваджена і сертифікована на підприємстві система управління безпечністю харчових продуктів відповідно до вимог міжнародного стандарту ISO 22000. <br> <br>
+                
+                «Карпатські мінеральні води» - це потужне підприємство з сучасним обладнанням і системами контролю якості, які відповідають вимогам міжнародних стандартів.</p>    
+                <img src="img/about-img03.jpg" alt="about3" class="wow animated slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                <h4 class="wow animated slideInRight" data-wow-duration="1.5s" data-wow-delay="0.4s">МІСІЯ І ЦІННОСТІ</h4>
+               <p class="wow animated slideInRight" data-wow-duration="1.5s" data-wow-delay="0.4s">Ми розвиваємо і розвиваємося на ринку безалкогольних напоїв для того, щоб приносити смак і задоволення в життя людей, пропонуючи їм якісні продукти в будь-якій точці України. <br> <br>
+
+                Ми приділяємо рівноцінне увагу задоволенню потреб покупців, розвитку співробітників і побудові довгострокових відносин з партнерами.</p>        
+      </section>
+    </main>
+    <footer class="wow animated fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.4s" id="contact">
+        <div class="footer-item">
+            <img src="img/logo.png" alt="" class="footer-logo">
+        </div>
+        <div class="footer-item wow animated fadeInUp" data-wow-duration="1.8s" data-wow-delay="2s">
+            <h5>НАЦІОНАЛЬНИЙ ДИСТРИБУТОР:</h5>
+            <p>тел./факс:+380 (44) 230-37-74</p>
+        </div>
+        <div class="footer-item wow animated fadeInUp" data-wow-duration="1.8s" data-wow-delay="2s">
+            <h5>КАРПАТСЬКІ МІНЕРАЛЬНІ ВОДИ:</h5>
+            <p>e-mail:office@kmw.com.ua</p>
+        </div>
+        <div class="footer-item wow animated fadeInUp" data-wow-duration="1.8s" data-wow-delay="2s">
+            <h5>ВІДДІЛ ПЕРСОНАЛУ:</h5>
+            <p>e-mail:hr@kmw.com.ua</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="mail/js/mail.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
